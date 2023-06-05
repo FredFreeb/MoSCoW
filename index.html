@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>MoSCoW</title>
+</head>
+
+<body>
+    <nav id="navbar" class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Vital Elements</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleNav()">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Acronyme">Acronyme</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Methode">Méthode</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Technique">La technique par étapes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="center">
+        <button class="m-bg" onclick="showNav1()">Mo</button>
+        <a class="s-bg" href="#" onclick="showNav2()">S</a>
+        <a class="c-bg" href="#" onclick="showNav3()">Co</a>
+        <a class="w-bg" href="#" onclick="showSuggestions()">W</a>
+    </div>
+
+    <main>
+        <section id="Methode" class="show-nav1">
+            <h2>La Méthode MoSCoW</h2>
+            <div>
+                Prisée dans les approches agiles, (originellement avec la méthodologie DSDM (Dynamique Systems Developpement Method ))
+                MoSCoW facilite la prise de décisions la méthode MoSCoW est un outil pratique et très simple à mettre en œuvre pour fixer les priorités.
+                C'est une technique de priorisation utilisée par les Chefs de projet pour travailler plus intelligemment.
+                L'idée est d'aller au-delà d'une classification plus ou moins binaire reposant sur l'importance, afin de mieux comprendre pourquoi choisir tel ou tel élément plutôt qu'un autre.
+                Pour bien gérer un projet et atteindre les objectifs associés, il est impératif de prioriser les points à traiter, les tâches à mener, les solutions à appliquer dans un espace-temps déterminé
+                Dai Clegg, consultant chez Oracle UK, a mis au point cet outil en 1994.
+                Afin d'évaluer les exigences du projet, il a analysé une série de projets informatiques.
+            </div>
+        </section>
+
+        <section id="Acronyme" class="show-nav2">
+            <h2>L'acronyme MoSCoW</h2>
+            <p>L'acronyme MoSCoW est construit à partir de la première lettre des termes anglais qui définissent chaque catégorie de la technique :</p>
+            <ul>
+                <li><strong>Mo</strong>ust have : Must</li>
+                <li><strong>S</strong>hould have : Should</li>
+                <li><strong>Co</strong>uld have : Could</li>
+                <li><strong>W</strong>on't have : Won't</li>
+            </ul>
+        </section>
+
+        <section id="Technique" class="show-nav3">
+            <h2>La technique MoSCoW par étapes</h2>
+            <ol>
+                <li><strong>Étape 1</strong><br>Constituer votre équipe de travail Choisir et sélectionner les membres représentatifs des différentes parties prenantes au projet. Leur expliquer :
+                    <br>• De quoi il s’agit,<br>
+                    • Pourquoi ils étaient choisis,<br>
+                    •<br>Qu’est-ce que vous attendez d’eux et comment vous allez travailler ensemble.
+                </li>
+                <li><strong>Étape 2 </strong>Lister les éléments à hiérarchiser En faisant participer les membres de l’équipe de travail (Équipe du projet, client, fournisseurs, autres parties prenantes…), procédez à lister toutes les tâches à accomplir. Absolument, toutes. Même celles jugées, de prime abord, comme secondaires.</li>
+                <li><strong>Étape 3 </strong>Prioriser vos tâches selon les critères Moscow Une fois votre liste est finalisée, entamer ensemble la catégorisation des éléments listés. • Commencer par définir vos activités « Must have », • Ensuite, identifier vos « Should have », • Puis, déterminer vos « Could have » et, • Finir par connaitre vos « Won't have ».
+                </li>
+                <li><strong>Étape 4 </strong>Relire et valider Revoir ensemble le travail réalisé. En vérifier la pertinence et au final, valider.                  .</li>
+            </ol>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

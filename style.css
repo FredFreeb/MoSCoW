@@ -1,0 +1,106 @@
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+.center {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+    height: 100vh;
+    font-size: 4vw;
+}
+
+.center a {
+    font-size: 2vw;
+}
+
+.m-bg {
+    background-color: #00bcd4;
+    padding: 1.5vw 3vw;
+    margin-right: 1vw;
+    font-size: 2vw;
+}
+
+.s-bg {
+    background-color: #ff5722;
+    padding: 1.5vw 3vw;
+    margin-right: 1vw;
+}
+
+.c-bg {
+    background-color: #4caf50;
+    padding: 1.5vw 3vw;
+    margin-right: 1vw;
+}
+
+.w-bg {
+    background-color: #9e9e9e;
+    padding: 1.5vw 3vw;
+    margin-right: 1vw;
+}
+
+main {
+    padding: 2vw;
+}
+
+.navbar {
+    background-color: #f44336;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: yellow !important;
+}
+
+#navbar {
+    display: none;
+}
+
+.show-nav {
+    display: block;
+    background-image: url(assets/MoscowFond.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+section {
+    padding: 2vw;
+}
+
+.show-nav1 {
+    display: block;
+}
+
+.show-nav2 {
+    display: block;
+}
+
+.show-nav3 {
+    display: block;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+section div {
+    font-size: 1.5vw;
+    line-height: 1.5;
+    margin-bottom: 2vw;
+}
+
+section ul {
+    list-style-type: disc;
+    margin-left: 2vw;
+}
+
+section ol {
+    list-style-type: decimal;
+    margin-left: 2vw;
+}
