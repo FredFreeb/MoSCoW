@@ -35,7 +35,7 @@
     </nav>
 
     <div class="center">
-        <button class="m-bg" onclick="showNav1()">Mo</button>
+        <a class="m-bg" href="#" onclick="toggleNav1()">Mo</a>
         <a class="s-bg" href="#" onclick="showNav2()">S</a>
         <a class="c-bg" href="#" onclick="showNav3()">Co</a>
         <a class="w-bg" href="#" onclick="showSuggestions()">W</a>
@@ -45,8 +45,7 @@
         <section id="Methode" class="show-nav1">
             <h2>La Méthode MoSCoW</h2>
             <div>
-                Prisée dans les approches agiles, (originellement avec la méthodologie DSDM (Dynamique Systems Developpement Method ))
-                MoSCoW facilite la prise de décisions la méthode MoSCoW est un outil pratique et très simple à mettre en œuvre pour fixer les priorités.
+                Prisée dans les approches agiles, MoSCoW facilite la prise de décisions la méthode MoSCoW est un outil pratique et très simple à mettre en œuvre pour fixer les priorités.
                 C'est une technique de priorisation utilisée par les Chefs de projet pour travailler plus intelligemment.
                 L'idée est d'aller au-delà d'une classification plus ou moins binaire reposant sur l'importance, afin de mieux comprendre pourquoi choisir tel ou tel élément plutôt qu'un autre.
                 Pour bien gérer un projet et atteindre les objectifs associés, il est impératif de prioriser les points à traiter, les tâches à mener, les solutions à appliquer dans un espace-temps déterminé
@@ -55,7 +54,7 @@
             </div>
         </section>
 
-        <section id="Acronyme" class="show-nav2">
+        <section id="Acronyme" class="show-nav1">
             <h2>L'acronyme MoSCoW</h2>
             <p>L'acronyme MoSCoW est construit à partir de la première lettre des termes anglais qui définissent chaque catégorie de la technique :</p>
             <ul>
@@ -66,7 +65,7 @@
             </ul>
         </section>
 
-        <section id="Technique" class="show-nav3">
+        <section id="Technique" class="show-nav1">
             <h2>La technique MoSCoW par étapes</h2>
             <ol>
                 <li><strong>Étape 1</strong><br>Constituer votre équipe de travail Choisir et sélectionner les membres représentatifs des différentes parties prenantes au projet. Leur expliquer :
@@ -77,9 +76,12 @@
                 <li><strong>Étape 2 </strong>Lister les éléments à hiérarchiser En faisant participer les membres de l’équipe de travail (Équipe du projet, client, fournisseurs, autres parties prenantes…), procédez à lister toutes les tâches à accomplir. Absolument, toutes. Même celles jugées, de prime abord, comme secondaires.</li>
                 <li><strong>Étape 3 </strong>Prioriser vos tâches selon les critères Moscow Une fois votre liste est finalisée, entamer ensemble la catégorisation des éléments listés. • Commencer par définir vos activités « Must have », • Ensuite, identifier vos « Should have », • Puis, déterminer vos « Could have » et, • Finir par connaitre vos « Won't have ».
                 </li>
-                <li><strong>Étape 4 </strong>Relire et valider Revoir ensemble le travail réalisé. En vérifier la pertinence et au final, valider.                  .</li>
+                <li><strong>Étape 4 </strong>Relire et valider Revoir ensemble le travail réalisé. En vérifier la pertinence et au final, valider.</li>
             </ol>
+            
         </section>
+        <img id="schema-img" src="assets/SchemaMoSCoW.jpg" alt="Schéma" style="display: none;">
+
     </main>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

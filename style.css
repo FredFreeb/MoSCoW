@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 2vw;
-    height: 100vh;
+    height: 70vh;
     font-size: 4vw;
 }
 
@@ -62,45 +62,29 @@ main {
     display: none;
 }
 
-.show-nav {
+section {
+    padding: 2vw;
+    display: none;
+}
+
+.show-nav1 #Methode,
+.show-nav2 #Acronyme,
+.show-nav3 #Technique {
+    display: block;
+}
+
+.show-nav1 .s-bg,
+.show-nav2 .c-bg,
+.show-nav3 .w-bg {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.show-nav3 {
     display: block;
     background-image: url(assets/MoscowFond.jpg);
     width: 100%;
     background-size: cover;
-}
-
-section {
-    padding: 2vw;
-}
-
-.show-nav1 {
-    display: block;
-}
-
-.show-nav2 {
-    display: block;
-}
-
-.show-nav3 {
-    display: block;
-}
-
-section h2 {
-    margin-top: 0;
-}
-
-section div {
-    font-size: 1.5vw;
-    line-height: 1.5;
-    margin-bottom: 2vw;
-}
-
-section ul {
-    list-style-type: disc;
-    margin-left: 2vw;
-}
-
-section ol {
-    list-style-type: decimal;
-    margin-left: 2vw;
+    color: #fff;
+    text-align: center;
+    backdrop-filter: blur(10px);
 }
